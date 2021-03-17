@@ -1,0 +1,129 @@
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	box-sizing: border-box;
+	font-size: 16px;
+}
+
+h2 {
+	text-align: center;
+	text-decoration: underline;
+	color: #B51F1F;
+}
+
+.menu {
+	background-color: #259055;
+text-align: center;
+position: fixed;
+width: 100%;
+z-index: 2;
+}
+
+.menu a {
+	color: #FFF;
+	display: inline-block;
+	padding: 10px 20px;
+	font-size: 20px;
+}
+
+.header {
+	text-align: center;
+	background-image: url(../img/background.jpg);
+	position: relative;
+	padding: 200px 0;
+}
+
+.header h1 {
+	padding-right: 400px;
+	font-style: italic;
+	font-size: 50px;
+}
+
+.header p {
+	position: absolute;
+	bottom: 30px;
+	right: 40px;
+}
+
+.facts {
+	background-color: #7AB27D;
+	padding: 50px 0;
+}
+
+.facts li {
+	padding: 10px;
+	list-style-position: inside;
+}
+
+.facts li:nth-child(odd) {
+font-weight: bold;
+}
+
+.facts li:nth-child(even) {
+	font-style: italic;
+}
+
+.galery {
+	padding: 50px 0;
+}
+
+.images {
+	text-align: center;
+	margin: 0 200px;
+}
+
+.images img {
+	margin: 20px;
+	border: 3px solid;
+}
+
+#red {
+	border-color: red;
+}
+
+#blue {
+	border-color: blue;
+}
+
+#green {
+	border-color: green;
+}
+
+#yellow {
+	border-color: yellow;
+}
+
+.feedback {
+	background-color: #7AB27D;
+padding: 50px 0;
+}
+
+.feedback form {
+	width: 500px;
+	margin: 20px auto;
+	border: 3px solid green;
+	text-align: center;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+input, select, textarea {
+width: 300px;
+padding: 15px;
+font-size: 20px;
+margin-top: 10px;
+border: 2px solid #1abc9c;
+outline: none;
+border-radius: 8px;
+
+}
+
+label {
+	font-size: 20px;
+	display: block;
+}
+
+input[type=submit] {
+	background-color: #B51F1F;
+}
